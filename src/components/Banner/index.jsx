@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="banner">
       <div className="banner__content">
         <div className="banner__intro">
-          <h2>Rate<span>.</span>Today</h2>
+          <h2>Rate<span>.24</span></h2>
           <span>Get your favourite cryptocurrency rates today.</span>
         </div>
         <Carousel />

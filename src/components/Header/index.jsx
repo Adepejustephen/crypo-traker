@@ -15,7 +15,9 @@ console.log(currency);
     <header className="header">
       <div className="logo">
         <Link to={"/"}>
-          <span>Rate<span className='dot'>.</span>Today</span>
+          <span>
+            Rate<span className="dot">.24</span>
+          </span>
         </Link>
       </div>
       <div className="select">

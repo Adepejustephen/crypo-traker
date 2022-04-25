@@ -22,7 +22,7 @@ const Carousel = () => {
     fetchTrendingCoins();
   }, [currency])
 
-  console.log(trending)
+  // console.log(trending)
  
 
   const items = trending.map((coin) => {
@@ -42,8 +42,7 @@ const Carousel = () => {
         </span>
 
         <span>
-          {symbol}
-          {numberWithCommas(coin.current_price.toFixed(2))}
+          {symbol}{numberWithCommas(coin.current_price.toFixed(2))}
         </span>
       </Link>
     );

@@ -1,0 +1,25 @@
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
+.carousel {
+    display: flex;
+    height: 50%;
+    align-items: center;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-transform: capitalize;
+        color: #f7f7f7;
+
+        & img {
+            margin-bottom: 20px;
+        }
+
+        & span:last-of-type {
+            margin-top: 8px;
+        }
+    }
+}

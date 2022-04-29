@@ -17,12 +17,13 @@ const Carousel = () => {
 
     const { data } = await axios.get(TrendingCoins(currency));
     setTrending(data);
+    
   };
   useEffect(() => {
     fetchTrendingCoins();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currency])
 
-  // console.log(trending)
  
 
   const items = trending.map((coin) => {

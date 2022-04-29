@@ -1,0 +1,65 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 10px auto;
+
+  .title {
+    font-size: 1.4rem;
+    margin: 18px;
+    font-family: "Montserrat";
+  }
+  .input {
+    border: 1px solid #333 !important;
+    color: #eee;
+    font-size: 0.825rem;
+    font-weight: 300;
+    outline: none !important;
+    background-color: transparent;
+    line-height: 40px;
+    padding: 0 1rem;
+    max-width: 50%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+
+    & span:first-of-type {
+      text-transform: uppercase;
+    }
+
+    & span:nth-of-type(2) {
+      color: #b7b4b4;
+    }
+  }
+  .text_white {
+    color: #fff;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.MuiTableRow-root:not(:nth-of-type(0)) {
+//   background-color: #16171a;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #131111;
+  }
+}
+
+
+
+.MuiPaginationItem-root {
+  color: gold !important;
+
+  // &:hover {
+  //     background-color: #fff;
+  // }
+}
